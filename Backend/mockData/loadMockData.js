@@ -22,8 +22,8 @@ const loadMockData = async () => {
     console.log("Loading Mock Data...");
 
     await Report.bulkCreate(act);
-    await Category.bulkCreate(categories);
-    await Condition.bulkCreate(condition);
+    //await Category.bulkCreate(categories);
+    //await Condition.bulkCreate(condition);
     await Power.bulkCreate(power);
     await Type.bulkCreate(typeVehicles);
     await Vehicle.bulkCreate(vehicles);
