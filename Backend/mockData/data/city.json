@@ -1,0 +1,22 @@
+[
+  {
+    "id": "C01",
+    "nombre": "New York",
+    "idPais": "USA"
+  },
+  {
+    "id": "C02",
+    "nombre": "Gotica",
+    "idPais": "USA"
+  },
+  {
+    "id": "C03",
+    "nombre": "Metropolis",
+    "idPais": "USA"
+  },
+  {
+    "id": "C04",
+    "nombre": "Washington D.C.",
+    "idPais": "USA"
+  }
+]
