@@ -10,7 +10,7 @@ module.exports = (sequelize) => {
         primaryKey: true,
         unique: true,
       },
-      nombre: {
+      estado: {
         type: DataTypes.STRING(100),
         allowNull: false,
       },
