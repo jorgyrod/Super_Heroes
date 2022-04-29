@@ -1,0 +1,22 @@
+[
+  {
+    "id": "A001",
+    "nombre": "Ley de Registro de Mutantes",
+    "descripcion": "El Registro de Mutantes fue una ley que propuso el Senador Kelly al congreso, para que todos los mutantes fueran identificados en un censo oficial que documentara su número, habilidades y paradero."
+  },
+  {
+    "id": "A002",
+    "nombre": "Ley de Keene",
+    "descripcion": "Se declara que todo enmascarado es ilegal"
+  },
+  {
+    "id": "A003",
+    "nombre": "Ley de Registro de Súper Humanos",
+    "descripcion": "El Acta de Registro Superhumano es una ley estadounidense que obliga a todos los super-humanos, es decir a aquellos miembros de la sociedad estadounidense que, están dotados de poderes sobrehumanos o bien utilizan tecnología para realizar actos de tal magnitud, a informar al Gobierno de la naturaleza de sus poderes."
+  },
+  {
+    "id": "A004",
+    "nombre": "Los Acuerdos de Sokovia",
+    "descripcion": "Fueron una serie de documentos legales creados para regular las actividades de los individuos alterados, específicamente las de aquellos que trabajaban para agencias gubernamentales como S.H.I.E.L.D. o para organizaciones privadas como los Vengadores."
+  }
+]

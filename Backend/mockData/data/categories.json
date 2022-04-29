@@ -1,0 +1,22 @@
+[
+  {
+    "id": "C01",
+    "nombre": "Heroe",
+    "descripcion": "Individuo que posee habilidades y rasgos de personalidad que permiten llevar a cabo hazañas extraordinaria y beneficiosas para salvar a las personas del peligro, por las que es reconocido"
+  },
+  {
+    "id": "C02",
+    "nombre": "Villano",
+    "descripcion": "Individuo que suele oponerse al heroe, carecen atributos de nobleza, ademas de cometer actos viles y deshonrosos que dañan a los demas"
+  },
+  {
+    "id": "C03",
+    "nombre": "Anti-Heroe",
+    "descripcion": "Son individuos que poseen características son contrarias o que no corresponden a las del héroe tradicional, ya que los antihéroes son imperfectos y poseen los defectos de la gente común"
+  },
+  {
+    "id": "C04",
+    "nombre": "Anti-Villano",
+    "descripcion": "Un anti-villano juega del lado de los villanos, generalmente es maligno o peligroso, pero tiene metas, rasgos y/o actitudes que son nobles. En algunos casos tienen metas heroicas, pero intentan alcanzarlas por métodos inmorales, injustos y hasta malignos; mientras que en otros buscan un objetivo maligno al que pretenden llegar por medio de métodos benignos."
+  }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "id": "P001",
+        "nombre": "Volar"
+    },{
+        "id": "P002",
+        "nombre": "Absorción"
+    },{
+        "id": "P003",
+        "nombre": "Visión Laser"
+    },{
+        "id": "P004",
+        "nombre": "Super Soldado"
+    },{
+        "id": "P005",
+        "nombre": "Adaptación"
+    },{
+        "id": "P006",
+        "nombre": "Metamorfosis"
+    },{
+        "id": "P007",
+        "nombre": "Curación"
+    },{
+        "id": "P008",
+        "nombre": "Fuego"
+    },{
+        "id": "P009",
+        "nombre": "Elasticidad"
+    },{
+        "id": "P010",
+        "nombre": "Camuflaje"
+    },{
+        "id": "P011",
+        "nombre": "Invisibilidad"
+    },{
+        "id": "P012",
+        "nombre": "Clarividencia"
+    },{
+        "id": "P013",
+        "nombre": "Creacion de Ilusiones"
+    },{
+        "id": "P014",
+        "nombre": "Duplicación"
+    },{
+        "id": "P015",
+        "nombre": "Regeneración"
+    },{
+        "id": "P016",
+        "nombre": "Multiple Personalidad"
+    },{
+        "id": "P017",
+        "nombre": "Suerte Sobrenatural"
+    },{
+        "id": "P018",
+        "nombre": "Dios Nordico"
+    },{
+        "id": "P019",
+        "nombre": "Control del Rayo"
+    },{
+        "id": "P020",
+        "nombre": "Fuerza SobreHumana"
+    },{
+        "id": "P021",
+        "nombre": "Telekinesis"
+    },{
+        "id": "P022",
+        "nombre": "Control del Metal"
+    },{
+        "id": "P023",
+        "nombre": "Inmortalidad"
+    },{
+        "id": "P024",
+        "nombre": "Creación de Portales"
+    },{
+        "id": "P025",
+        "nombre": "Control de la Realidad"
+    },{
+        "id": "P026",
+        "nombre": "Control del Espacio"
+    },{
+        "id": "P027",
+        "nombre": "Control del Tiempo"
+    },{
+        "id": "P028",
+        "nombre": "Control de la Mente"
+    },{
+        "id": "P029",
+        "nombre": "Control del Espacio"
+    },{
+        "id": "P030",
+        "nombre": "Control del Poder"
+    },{
+        "id": "P031",
+        "nombre": "Punteria Eficaz"
+    },{
+        "id": "P032",
+        "nombre": "Pelea Cuerpo a Cuerpo"
+    },{
+        "id": "P033",
+        "nombre": "Invocacion de Deidades Egipcias"
+    },{
+        "id": "P034",
+        "nombre": "Velocidad"
+    },{
+        "id": "P035",
+        "nombre": "Control del Mar"
+    }
+]

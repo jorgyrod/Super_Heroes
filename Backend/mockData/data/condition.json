@@ -1,0 +1,15 @@
+[
+    {
+        "id": "E01",
+        "estado": "En Libertad"
+    },{
+        "id": "E02",
+        "estado": "Detenido (Prision)"
+    },{
+        "id": "E02",
+        "estado": "Detenido (Prision Domiciliaria)"
+    },{
+        "id": "E014",
+        "estado": "Desconocido"
+    }
+]

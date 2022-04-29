@@ -1,0 +1,16 @@
+[
+  {
+    "modelo": "2019",
+    "marca": "Audi",
+    "color": "Rojo",
+    "motor": "1800",
+    "idTipo": "T01"
+  },
+  {
+    "modelo": "2012",
+    "marca": "Harley Davidson",
+    "color": "Vinotinto-Negro",
+    "motor": "1800",
+    "idTipo": "T02"
+  }
+]
