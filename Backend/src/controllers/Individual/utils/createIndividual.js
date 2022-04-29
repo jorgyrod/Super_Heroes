@@ -2,13 +2,13 @@ const {
   Category,
   City,
   Condition,
-  Country,
   Individual,
   Power,
   Report,
-  Type,
   Vehicle,
 } = require("../../db");
+
+const addPhotos = require("./addPhotos.js");
 
 const createIndividual = async (data) => {
   const {
@@ -19,7 +19,8 @@ const createIndividual = async (data) => {
     idCondicion,
     idActa,
     idVehiculo,
-    powers,
+    poder,
+    fotos,
   } = data;
 
   const newIndividual = await Individual.create({
@@ -27,6 +28,8 @@ const createIndividual = async (data) => {
     apellido,
   });
 
+  //Fotos
+  addPhotos(fotos, newIndividual);
   //Categoria
   const category = await Category.findByPk(idCategoria);
   await category.addIndividual(newIndividual);
@@ -49,8 +52,8 @@ const createIndividual = async (data) => {
 
   //Powers
   await Promise.all(
-    powers.map(async (power) => {
-      const pow = await Power.findByPk(power);
+    poder.map(async (poder) => {
+      const pow = await Power.findByPk(poder);
       await newIndividual.addPower(pow);
     })
   );

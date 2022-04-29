@@ -4,7 +4,7 @@
   "description": "Backend, Creación de Modelos y Rutas Endpoints",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon -L"
   },
   "author": "Jorge Rodriguez",
   "license": "ISC",

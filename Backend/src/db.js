@@ -43,39 +43,35 @@ const {
   Report,
   Type,
   Vehicle,
+  Photo
 } = sequelize.models;
 
-//Country - City 1:n
+Individual.hasMany(Photo);
+Photo.belongsTo(Individual);
+
 Country.hasMany(City);
 City.belongsTo(Country);
 
-//Vehiculo - Tipo Vehiculo n:1
 Type.hasMany(Vehicle);
 Vehicle.belongsTo(Type);
 
-//Categoria - Individuo 1:n
 Category.hasMany(Individual);
 Individual.belongsTo(Category);
 
-//Registro - Individuo 1:n
 Report.hasMany(Individual);
 Individual.belongsTo(Report);
 
-//Condicion - Individuo 1:n
 Condition.hasMany(Individual);
 Individual.belongsTo(Condition);
 
-//Individuo - Vehiculo 1:n
 Individual.hasMany(Vehicle);
 Vehicle.belongsTo(Individual);
 
-//Individuo - Ciudad n:1
 City.hasMany(Individual);
 Individual.belongsTo(City);
 
-//Individuo - Poder n: n
-Individual.belongsToMany(Power, { through: "individual_power" });
-Power.belongsToMany(Individual, { through: "individual_power" });
+Individual.belongsToMany(Power, { through: "Individual_Power" });
+Power.belongsToMany(Individual, { through: "Individual_Power" });
 
 module.exports = {
   ...sequelize.models,
