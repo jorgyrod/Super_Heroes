@@ -21,17 +21,18 @@ const {
 } = require("../src/db.js");
 
 const createCity = require("../src/controllers/City/utils/createCity");
+const createVehicle = require("../src/controllers/Vehicle/utils/createVehicle");
 
 const loadMockData = async () => {
   console.log("Loading Mock Data...");
 
   countriesAdd();
+  vehiclesAdd();
   await Report.bulkCreate(act);
   await Category.bulkCreate(categories);
   await Condition.bulkCreate(condition);
   await Power.bulkCreate(power);
-  await Type.bulkCreate(typeVehicles);
-  await Vehicle.bulkCreate(vehicles);
+
 };
 
 const countriesAdd = async () => {
@@ -49,7 +50,20 @@ const countriesAdd = async () => {
   );
 
   cities.forEach(async (city) => await createCity(city));
+};
 
+const vehiclesAdd = async () => {
+  await Promise.all(
+    typeVehicles.map((type) => {
+      let data = {
+        id : type.id,
+        nombre : type.nombre
+      };
+      Type.create(data);
+    })
+  )
+
+  vehicles.forEach(async (vehicle) => await createVehicle(vehicle));
 };
 
 module.exports = loadMockData;
