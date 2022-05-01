@@ -10,6 +10,10 @@ module.exports = (sequelize) => {
       },
       apellido: {
         type: DataTypes.STRING(100),
+        allowNull: true,
+      },
+      apodo: {
+        type: DataTypes.STRING(100),
         allowNull: false,
       },
     },

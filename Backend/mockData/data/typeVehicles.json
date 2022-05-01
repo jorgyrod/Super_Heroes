@@ -13,6 +13,14 @@
   },
   {
     "id": "T04",
-    "nombre": "Buss"
+    "nombre": "Bus"
+  },
+  {
+    "id": "T05",
+    "nombre": "Nave interplanetaria"
+  },
+  {
+    "id": "T06",
+    "nombre": "Indefinido"
   }
 ]

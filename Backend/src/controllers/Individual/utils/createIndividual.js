@@ -6,7 +6,7 @@ const {
   Power,
   Report,
   Vehicle,
-} = require("../../db");
+} = require("../../../db");
 
 const addPhotos = require("./addPhotos.js");
 
@@ -14,18 +14,20 @@ const createIndividual = async (data) => {
   const {
     nombre,
     apellido,
+    apodo,
     idCategoria,
     idCiudad,
     idCondicion,
     idActa,
     idVehiculo,
-    poder,
+    idPoder,
     fotos,
   } = data;
 
   const newIndividual = await Individual.create({
     nombre,
     apellido,
+    apodo
   });
 
   //Fotos
@@ -42,17 +44,20 @@ const createIndividual = async (data) => {
   //Acta
   const act = await Report.findByPk(idActa);
   await act.addIndividual(newIndividual);
+
   //Vehiculo
-  await Promise.all(
-    idVehiculo.map(async (vehiculo) => {
-      const vehicle = await Vehicle.findByPk(vehiculo);
-      await vehicle.addIndividual(newIndividual);
-    })
-  );
+  if(idVehiculo !== ""){
+    await Promise.all(
+      idVehiculo.map(async (vehiculo) => {
+        const vehicle = await Vehicle.findByPk(vehiculo);
+        await newIndividual.addVehicle(vehicle);
+      })
+    );
+  }
 
   //Powers
   await Promise.all(
-    poder.map(async (poder) => {
+    idPoder.map(async (poder) => {
       const pow = await Power.findByPk(poder);
       await newIndividual.addPower(pow);
     })

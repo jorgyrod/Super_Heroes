@@ -18,5 +18,10 @@
     "id": "A004",
     "nombre": "Los Acuerdos de Sokovia",
     "descripcion": "Fueron una serie de documentos legales creados para regular las actividades de los individuos alterados, específicamente las de aquellos que trabajaban para agencias gubernamentales como S.H.I.E.L.D. o para organizaciones privadas como los Vengadores."
+  },
+  {
+    "id": "A005",
+    "nombre": "Sin Acta",
+    "descripcion": "Los individuos que no tienen una vinculacion o regulacion con algun documento"
   }
 ]

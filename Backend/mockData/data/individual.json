@@ -1,0 +1,70 @@
+[
+    {
+        "nombre": "Thanos",
+        "apellido": "",
+        "apodo": "",
+        "fotos": ["https://1.bp.blogspot.com/-JZyPQFV7mG4/XtA3ShX5-hI/AAAAAAAB5V0/ya9zyIjhwLcrLUWJOPaB3NwHHXO42GoMgCLcBGAsYHQ/s1600/quien-es-thanos.jpg",
+            "https://media.gq.com.mx/photos/5dec0db85b7e8300097bca15/16:9/w_1280,c_limit/thanos-bebe-marvel.jpg"],
+        "idCategoria": "C02",
+        "idCiudad": "C01",
+        "idCondicion": "E05",
+        "idVehiculo": ["3"],
+        "idPoder": ["P032", "P027", "P028", "P026", "P030", "P024", "P025", "P020"],
+        "idActa": "A005"
+    },
+    {
+        "nombre": "Marc",
+        "apellido": "Spector",
+        "apodo": "Moon Knight",
+        "fotos": ["https://upload.wikimedia.org/wikipedia/commons/b/ba/Moon_Knight_Vol_7_3_Stegman_Variant_Textless.jpg",
+            "https://b-static.besthdwallpaper.com/moon-knight-sequence-poster-image-of-hero-wearing-black-with-half-moon-and-foggy-background-wallpaper-2048x1536-93644_26.jpg",
+            "https://sportshub.cbsistatic.com/i/2022/03/10/65e081ee-e9f3-4fff-9d5e-2adcc91a3194/new-marvel-moon-knight-posters-revealed.jpg"],
+        "idCategoria": "C01",
+        "idCiudad": "C02",
+        "idCondicion": "E01",
+        "idVehiculo": "",
+        "idPoder": ["P007", "P035", "P020", "P032", "P036","P016"],
+        "idActa": "A005"
+    },
+    {
+        "nombre": "Anthony Edward",
+        "apellido": "Stark",
+        "apodo": "Iron Man",
+        "fotos": ["https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2017/06/tumblr_nbvy6dM8fW1tlhgiuo1_1280.jpg?itok=NFCUVwFu",
+            "https://es.web.img3.acsta.net/newsv7/20/05/07/12/52/3980724.jpg",
+            "https://www.xtrafondos.com/wallpapers/vertical/soy-iron-man-8878.jpg"],
+        "idCategoria": "C01",
+        "idCiudad": "C03",
+        "idCondicion": "E05",
+        "idVehiculo": ["4"],
+        "idPoder": ["P001", "P020", "P037", "P039"],
+        "idActa": "A004"
+    },
+    {
+        "nombre": "Steven 'Steve'",
+        "apellido": "Rogers",
+        "apodo": "Capitan America",
+        "fotos": ["https://i.pinimg.com/originals/a2/81/66/a2816638aa5363d7de7e26fa782378ba.jpg",
+            "https://media.vandalsports.com/i/640x360/4-2021/2021427125442_1.jpg",
+            "https://www.cinemascomics.com/wp-content/uploads/2020/07/chris-evans-capitan-america-peliculas-de-marvel.jpg"],
+        "idCategoria": "C01",
+        "idCiudad": "C03",
+        "idCondicion": "E04",
+        "idVehiculo": ["2"],
+        "idPoder": ["P020", "P004", "P031", "P038"],
+        "idActa": "A005"
+    },{
+        "nombre": "Loki",
+        "apellido": "Odinson",
+        "apodo": "Dios de las Mentiras",
+        "fotos": ["https://m.media-amazon.com/images/I/81RpWI5xFKL._AC_SY741_.jpg",
+            "https://i0.wp.com/hipertextual.com/wp-content/uploads/2021/07/loki-1-scaled.jpg?fit=2560%2C1440&ssl=1",
+            "https://lanacion.com.pe/wp-content/uploads/2021/06/serie-loki.jpg"],
+        "idCategoria": "C03",
+        "idCiudad": "C01",
+        "idCondicion": "E05",
+        "idVehiculo": "",
+        "idPoder": ["P010", "P020", "P033", "P039"],
+        "idActa": "A005"
+    }
+]

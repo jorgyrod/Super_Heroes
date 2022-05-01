@@ -12,5 +12,18 @@
     "color": "Vinotinto-Negro",
     "motor": "1800",
     "idTipo": "T02"
+  },
+  {
+    "modelo": "Desconocido",
+    "marca": "Ninguna",
+    "color": "Negro",
+    "motor": "0000",
+    "idTipo": "T05"
+  },{
+    "modelo": "V8 1967",
+    "marca": "Shelby Cobra",
+    "color": "Negro",
+    "motor": "1800",
+    "idTipo": "T01"
   }
 ]

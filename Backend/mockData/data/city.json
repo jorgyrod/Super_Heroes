@@ -1,21 +1,31 @@
 [
   {
     "id": "C01",
+    "nombre": "Interplanetario",
+    "idPais": "C00"
+  },
+  {
+    "id": "C02",
+    "nombre": "Internacional",
+    "idPais": "C00"
+  },
+  {
+    "id": "C03",
     "nombre": "New York",
     "idPais": "USA"
   },
   {
-    "id": "C02",
+    "id": "C04",
     "nombre": "Gotica",
     "idPais": "USA"
   },
   {
-    "id": "C03",
+    "id": "C05",
     "nombre": "Metropolis",
     "idPais": "USA"
   },
   {
-    "id": "C04",
+    "id": "C06",
     "nombre": "Washington D.C.",
     "idPais": "USA"
   }

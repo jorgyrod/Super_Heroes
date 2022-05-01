@@ -14,5 +14,9 @@
   {
     "id": "E04",
     "estado": "Desconocido"
+  },
+  {
+    "id": "E05",
+    "estado": "Fallecido"
   }
 ]

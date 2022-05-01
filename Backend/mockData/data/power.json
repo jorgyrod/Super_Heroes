@@ -85,24 +85,36 @@
         "nombre": "Control de la Mente"
     },{
         "id": "P029",
-        "nombre": "Control del Espacio"
-    },{
-        "id": "P030",
         "nombre": "Control del Poder"
     },{
-        "id": "P031",
+        "id": "P030",
         "nombre": "Punteria Eficaz"
     },{
-        "id": "P032",
+        "id": "P031",
         "nombre": "Pelea Cuerpo a Cuerpo"
     },{
-        "id": "P033",
+        "id": "P032",
         "nombre": "Invocacion de Deidades Egipcias"
     },{
-        "id": "P034",
+        "id": "P033",
         "nombre": "Velocidad"
     },{
-        "id": "P035",
+        "id": "P034",
         "nombre": "Control del Mar"
+    },{
+        "id": "P035",
+        "nombre": "Vision Nocturna"
+    },{
+        "id": "P036",
+        "nombre": "Lunarkinesis"
+    },{
+        "id": "P037",
+        "nombre": "Reactor ARC"
+    },{
+        "id": "P038",
+        "nombre": "Digno del Martillo de Thor"
+    },{
+        "id": "P039",
+        "nombre": "Durabilidad"
     }
 ]
